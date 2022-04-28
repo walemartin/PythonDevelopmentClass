@@ -17,3 +17,12 @@ if "blackcurrant" in thislist:
 else:
     thislist[1] = "blackcurrant"
     print(thislist)
+
+thislis = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislis[1:3] = ["blackcurrant", "watermelon"]
+print(thislis)
+
+thislistt = ["apple", "banana", "cherry"]
+thislistt[1:2] = ["blackcurrant", "watermelon"]
+print(thislistt)
+
