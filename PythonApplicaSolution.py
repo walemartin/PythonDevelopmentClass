@@ -12,4 +12,8 @@ list3 = [True, False, False]
 list1 = ["abc", 34, True, 40, "male"]
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:5])
+if "blackcurrant" in thislist:
+    print("Yes")
+else:
+    thislist[1] = "blackcurrant"
+    print(thislist)
