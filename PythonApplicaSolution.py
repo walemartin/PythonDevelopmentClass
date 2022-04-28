@@ -26,3 +26,15 @@ thislistt = ["apple", "banana", "cherry"]
 thislistt[1:2] = ["blackcurrant", "watermelon"]
 print(thislistt)
 
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
+
+for x in thislist:
+    print(x)
+
+a=["apple","orange","Mango"]
+for i in range(len(a)):
+    print(i)
+
