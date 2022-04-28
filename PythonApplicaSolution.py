@@ -18,23 +18,11 @@ else:
     thislist[1] = "blackcurrant"
     print(thislist)
 
-thislis = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-thislis[1:3] = ["blackcurrant", "watermelon"]
-print(thislis)
+fruits = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+newList=[]
 
-thislistt = ["apple", "banana", "cherry"]
-thislistt[1:2] = ["blackcurrant", "watermelon"]
-print(thislistt)
+newlist = [x for x in fruits if x != "apple"]
 
-thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
-print(thislist)
+print(newlist)
 
-for x in thislist:
-    print(x)
-
-a=["apple","orange","Mango"]
-for i in range(len(a)):
-    print(i)
 
