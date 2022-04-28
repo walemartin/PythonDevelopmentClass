@@ -25,4 +25,7 @@ newlist = [x for x in fruits if x != "apple"]
 
 print(newlist)
 
+b=[c for c in range(20) if c<=5]
+print(b)
+
 
